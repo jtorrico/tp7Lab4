@@ -1,20 +1,21 @@
 <template>
-  <div class="home">
-    <Menu/>
-    <Intro/>
-  </div>
+    <div>
+        <Menu/>
+        <Producto/>
+    </div>
 </template>
+
 
 <script>
 // @ is an alias to /src
 import Menu from '../components/Menu.vue'
-import Intro from '../views/Intro.vue'
+import Producto from '../components/Producto.vue'
 
 export default {
-  name: 'Home',
+  name: 'Productos',
   components: {
     Menu,
-    Intro
+    Producto
   }
 }
 </script>
